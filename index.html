@@ -1,237 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>NowUrTurn Sample</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="shadow"></div>
     <div class="header">
-        <div class="brand-name">
-            <img src="/assets/Logo.svg" alt="logo">
-            <h2>Now<span class="mini-text">Ur</span>Turn</h2>
-        </div>
+      <div class="brand-name">
+        <img src="/assets/Logo.svg" alt="logo" />
+        <h2>Now<span class="mini-text">Ur</span>Turn</h2>
+      </div>
 
-        <div class="nav-menu">
-            <span>Home</span>
-            <span>Discuss</span>
-            <span class="active">Jobs</span>
-            <span>Projects</span>
-            <span>Profile</span>
-        </div>
+      <div class="nav-menu">
+        <span>Home</span>
+        <span>Discuss</span>
+        <span class="active">Jobs</span>
+        <span>Projects</span>
+        <span>Profile</span>
+      </div>
 
-        <div class="mobile-hamburger"><img src="/assets/hamburger-menu.svg" alt="hamburger-menu"></div>
+
+      <div class="mobile-hamburger">
+        <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
+      </div>
     </div>
 
     <div class="mobile-container">
-        <div class="herosection">
-            <div class="hamburger-menu"><img src="/assets/hamburger-menu.svg" alt="hamburger-menu"></div>
-
-            <div class="herocontent">
-                <h2>Hey Natasha!</h2>
-                <p>Your Next Career Opportunity Awaits!</p>
-            </div>
+      <div class="herosection">
+        <div class="hamburger-menu">
+          <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
         </div>
 
-        <div class="search">
-            <div class="input-container">
-                <input type="search" name="search" id="search" placeholder="search">
-                <img src="/assets/search.svg" alt="search">
-            </div>
-            <button><img src="/assets/search-button.svg" alt="button"></button>
+        <div class="nav-modal">
+              <ul>
+                <li>Your Resume</li>
+                <li>Applied Jobs</li>
+                <li>Job Replies</li>
+                <li>Recruiter Portal</li>
+              </ul>
+          </div>
+
+        <div class="herocontent">
+          <h2>Hey Natasha!</h2>
+          <p>Your Next Career Opportunity Awaits!</p>
         </div>
+      </div>
+
+      <div class="search">
+        <div class="input-container">
+          <input type="search" name="search" id="search" placeholder="search" />
+          <img src="/assets/search.svg" alt="search" />
+        </div>
+        <button><img src="/assets/search-button.svg" alt="button" /></button>
+      </div>
     </div>
 
     <div class="main-content">
-        <div class="jobs-section">
-            <h2 class="header">Popular Jobs</h2>
+      <div class="jobs-section">
+        <h2 class="header">Popular Jobs</h2>
 
-            <div class="job-cards-container">
-                <div class="job-card">
-                    <div class="card-header">
-                        <img src="/assets/tcs.png" alt="job-img">
-                        <div class="">
-                            <h4>TCS</h4>
-                            <p>Bangalore, India</p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Senior Back-end Developer</h3>
-                        <p>Minimum 5+ years of experience</p>
-                    </div>
-
-                    <div class="card-footer">
-                        <span>11-20 lakh</span>
-                        <span>Full Time</span>
-                        <span>On-site</span>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="card-header">
-                        <img src="/assets/microsoft.jpg" alt="job-img">
-                        <div class="">
-                            <h4>Microsoft</h4>
-                            <p>Mumbai, India</p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Senior Data Specialist</h3>
-                        <p>Minimum 5+ years of experience</p>
-                    </div>
-
-                    <div class="card-footer">
-                        <span>11-20 lakh</span>
-                        <span>Full Time</span>
-                        <span>On-site</span>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="card-header">
-                        <img src="/assets/amazon.png" alt="job-img">
-                        <div class="">
-                            <h4>Amazon</h4>
-                            <p>Chennai, India</p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Senior Cloud Specialist</h3>
-                        <p>Minimum 5+ years of experience</p>
-                    </div>
-
-                    <div class="card-footer">
-                        <span>11-20 lakh</span>
-                        <span>Full Time</span>
-                        <span>On-site</span>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="card-header">
-                        <img src="/assets/apple.jpeg" alt="job-img">
-                        <div class="">
-                            <h4>Apple</h4>
-                            <p>Bangalore, India</p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Senior Swift Developer</h3>
-                        <p>Minimum 5+ years of experience</p>
-                    </div>
-
-                    <div class="card-footer">
-                        <span>11-20 lakh</span>
-                        <span>Full Time</span>
-                        <span>On-site</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="recent-jobs">
-            <h2 class="header">Recent Jobs</h2>
-
-            <div class="recent-jobs-container">
-                <div class="job-card">
-                    <div class="img-container">
-                        <img src="/assets/capgemini.png" alt="job-img">
-                    </div>
-                    <div class="content">
-                        <h4>Capgemini</h4>
-                        <p>#Senior Salesforce Developer #Full Time #4 - 5 lakh/year #On-site #Minimum 2+ years of experience #Bangalore, India</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="img-container">
-                        <img src="/assets/oracle.png" alt="job-img">
-                    </div>
-                    <div class="content">
-                        <h4>Oracle</h4>
-                        <p>#Database Engineer #Full Time #5 - 6 lakh/year #On-site #Minimum 3+ years of experience #Mumbai, India</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="img-container">
-                        <img src="/assets/adobe.png" alt="job-img">
-                    </div>
-                    <div class="content">
-                        <h4>Adobe</h4>
-                        <p>#Back-end Developer #Full Time #8 - 9 lakh/year #On-site #Minimum 2+ years of experience #Bangalore, India</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="img-container">
-                        <img src="/assets/ibm.jpeg" alt="job-img">
-                    </div>
-                    <div class="content">
-                        <h4>IBM</h4>
-                        <p>#Data Analyst #Full Time #5 - 6 lakh/year #On-site #Minimum 2+ years of experience #Hyderabad, India</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="img-container">
-                        <img src="/assets/tcs.png" alt="job-img">
-                    </div>
-                    <div class="content">
-                        <h4>TCS</h4>
-                        <p>Java Developer #Full Time #6 - 7 lakh/year #On-site #Minimum 3+ years of experience #Chennai, India</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="img-container">
-                        <img src="/assets/capgemini.png" alt="job-img">
-                    </div>
-                    <div class="content">
-                        <h4>Capgemini</h4>
-                        <p>#Associate Technical Support Engineer #Full Time #5 - 6 lakh/year #On-site #Minimum 2+ years of experience #Bangalore, India</p>
-                    </div>
-                </div>
+        <div class="job-cards-container">
+          <div class="job-card">
+            <div class="card-header">
+              <img src="/assets/tcs.png" alt="job-img" />
+              <div class="">
+                <h4>TCS</h4>
+                <p>Bangalore, India</p>
+              </div>
             </div>
 
+            <div class="card-body">
+              <h3>Senior Back-end Developer</h3>
+              <p>Minimum 5+ years of experience</p>
+            </div>
+
+            <div class="card-footer">
+              <span>11-20 lakh</span>
+              <span>Full Time</span>
+              <span>On-site</span>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="card-header">
+              <img src="/assets/microsoft.jpg" alt="job-img" />
+              <div class="">
+                <h4>Microsoft</h4>
+                <p>Mumbai, India</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3>Senior Data Specialist</h3>
+              <p>Minimum 5+ years of experience</p>
+            </div>
+
+            <div class="card-footer">
+              <span>11-20 lakh</span>
+              <span>Full Time</span>
+              <span>On-site</span>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="card-header">
+              <img src="/assets/amazon.png" alt="job-img" />
+              <div class="">
+                <h4>Amazon</h4>
+                <p>Chennai, India</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3>Senior Cloud Specialist</h3>
+              <p>Minimum 5+ years of experience</p>
+            </div>
+
+            <div class="card-footer">
+              <span>11-20 lakh</span>
+              <span>Full Time</span>
+              <span>On-site</span>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="card-header">
+              <img src="/assets/apple.jpeg" alt="job-img" />
+              <div class="">
+                <h4>Apple</h4>
+                <p>Bangalore, India</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3>Senior Swift Developer</h3>
+              <p>Minimum 5+ years of experience</p>
+            </div>
+
+            <div class="card-footer">
+              <span>11-20 lakh</span>
+              <span>Full Time</span>
+              <span>On-site</span>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="recent-jobs">
+        <h2 class="header">Recent Jobs</h2>
+
+        <div class="recent-jobs-container">
+          <div class="job-card">
+            <div class="img-container">
+              <img src="/assets/capgemini.png" alt="job-img" />
+            </div>
+            <div class="content">
+              <h4>Capgemini</h4>
+              <p>
+                #Senior Salesforce Developer #Full Time #4 - 5 lakh/year
+                #On-site #Minimum 2+ years of experience #Bangalore, India
+              </p>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="img-container">
+              <img src="/assets/oracle.png" alt="job-img" />
+            </div>
+            <div class="content">
+              <h4>Oracle</h4>
+              <p>
+                #Database Engineer #Full Time #5 - 6 lakh/year #On-site #Minimum
+                3+ years of experience #Mumbai, India
+              </p>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="img-container">
+              <img src="/assets/adobe.png" alt="job-img" />
+            </div>
+            <div class="content">
+              <h4>Adobe</h4>
+              <p>
+                #Back-end Developer #Full Time #8 - 9 lakh/year #On-site
+                #Minimum 2+ years of experience #Bangalore, India
+              </p>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="img-container">
+              <img src="/assets/ibm.jpeg" alt="job-img" />
+            </div>
+            <div class="content">
+              <h4>IBM</h4>
+              <p>
+                #Data Analyst #Full Time #5 - 6 lakh/year #On-site #Minimum 2+
+                years of experience #Hyderabad, India
+              </p>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="img-container">
+              <img src="/assets/tcs.png" alt="job-img" />
+            </div>
+            <div class="content">
+              <h4>TCS</h4>
+              <p>
+                Java Developer #Full Time #6 - 7 lakh/year #On-site #Minimum 3+
+                years of experience #Chennai, India
+              </p>
+            </div>
+          </div>
+
+          <div class="job-card">
+            <div class="img-container">
+              <img src="/assets/capgemini.png" alt="job-img" />
+            </div>
+            <div class="content">
+              <h4>Capgemini</h4>
+              <p>
+                #Associate Technical Support Engineer #Full Time #5 - 6
+                lakh/year #On-site #Minimum 2+ years of experience #Bangalore,
+                India
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>©️ 2024 NowUrTurn. All rights reserved.</h4>
+
+      <ul>
+        <li>About</li>
+        <li>Faq</li>
+        <li>Terms and Condition</li>
+        <li>Privacy Policy</li>
+      </ul>
     </div>
     <div class="mobile-footer">
-        <div class="content">
-            <div class="nav-item">
-                <img src="/assets//home.svg" alt="img">
-                <span>Home</span>
-            </div>
-            <div class="nav-item">
-                <img src="/assets/discuss.svg" alt="img">
-                <span>Discuss</span>
-            </div>
-            <div class="nav-item">
-                <img src="/assets/jobs.svg" alt="img">
-                <span class="active">Jobs</span>
-            </div>
-            <div class="nav-item">
-                <img src="/assets/projects.svg" alt="img">
-                <span>Projects</span>
-            </div>
-            <div class="nav-item">
-                <img src="/assets/user.svg" alt="img">
-                <span>Profile</span>
-            </div>
+      <div class="content">
+        <div class="nav-item">
+          <img src="/assets//home.svg" alt="img" />
+          <span>Home</span>
         </div>
+        <div class="nav-item">
+          <img src="/assets/discuss.svg" alt="img" />
+          <span>Discuss</span>
+        </div>
+        <div class="nav-item">
+          <img src="/assets/jobs.svg" alt="img" />
+          <span class="active">Jobs</span>
+        </div>
+        <div class="nav-item">
+          <img src="/assets/projects.svg" alt="img" />
+          <span>Projects</span>
+        </div>
+        <div class="nav-item">
+          <img src="/assets/user.svg" alt="img" />
+          <span>Profile</span>
+        </div>
+      </div>
     </div>
     <script type="module" src="/index.js"></script>
-</body>
-
+  </body>
 </html>
