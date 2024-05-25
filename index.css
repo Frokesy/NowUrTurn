@@ -423,6 +423,9 @@ span {
     gap: 20px;
     margin-bottom: 100px;
   }
+  .search{
+      padding: 0 5%;
+  }
   .search .input-container {
     width: 80vw;
     padding: 6px;
