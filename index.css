@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: red 2px solid;
 }
 
 .header img {
@@ -43,4 +42,63 @@
 
 .mini-text {
     color: #c863b9;
+}
+
+.herosection {
+    background: linear-gradient(to right, #4f45bd, #0f2882);
+    padding: 20px 0;
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: end;
+}
+
+.hamburger-menu img {
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 10vw;
+}
+
+.herocontent {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.herocontent p {
+    margin-top: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.search .input-container {
+    border: #a5b5ff 3px solid;
+    display: flex;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #333;
+}
+
+input[type="search"]::placeholder {
+    color: #c4dcfc;
+    font-weight: 900;
+}
+
+.search button {
+    background-color: #5271ff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
 }
