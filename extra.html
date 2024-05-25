@@ -1,136 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet" />
     <title>NowUrTurn</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="form">
-      <div class="header">
-        <div class="brand-name">
-          <img src="/assets/Logo.svg" alt="logo" />
-          <h2>Now<span class="mini-text">Ur</span>Turn</h2>
-        </div>
+        <div class="header">
+            <div class="brand-name">
+                <img src="/assets/Logo.svg" alt="logo" />
+                <h2>Now<span class="mini-text">Ur</span>Turn</h2>
+            </div>
 
-        <div class="nav-menu">
-          <span>Home</span>
-          <span>Discuss</span>
-          <span class="active">Jobs</span>
-          <span>Projects</span>
-          <span>Profile</span>
-        </div>
+            <div class="nav-menu">
+                <span>Home</span>
+                <span>Discuss</span>
+                <span class="active">Jobs</span>
+                <span>Projects</span>
+                <span>Profile</span>
+            </div>
 
-        <div class="mobile-hamburger">
-          <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
+            <div class="mobile-hamburger">
+                <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
+            </div>
         </div>
-      </div>
-      <form class="company-form">
-        <div class="form-group">
-          <!-- <input type="file" id="logo-upload" name="logo-upload"> -->
-          <!-- <button type="button" class="upload">Upload logo</button> -->
-          <!-- <label for="logo-upload">Upload Logo</label> -->
-          <input
-            type="file"
-            id="logo-upload"
-            name="logo-upload"
-            style="display: none"
-          />
-          <button type="button" id="logo-button" class="upload-button">
+        <form class="company-form">
+            <div class="form-group">
+                <!-- <input type="file" id="logo-upload" name="logo-upload"> -->
+                <!-- <button type="button" class="upload">Upload logo</button> -->
+                <!-- <label for="logo-upload">Upload Logo</label> -->
+                <input type="file" id="logo-upload" name="logo-upload" style="display: none" />
+                <button type="button" id="logo-button" class="upload-button">
             No Logo
           </button>
-          <button class="submit">Upload Button</button>
-          <span id="logo-filename" class="filename"></span>
-        </div>
-        <div class="form-group">
-          <label for="company-name">Company Name</label>
-          <input
-            type="text"
-            id="company-name"
-            name="company-name"
-            placeholder="type here"
-          />
-        </div>
-        <div class="form-group">
-          <label for="designation">Designation</label>
-          <input
-            type="text"
-            id="designation"
-            name="designation"
-            placeholder="type here"
-          />
-        </div>
-        <div class="form-group">
-          <label for="verify-identity">Verify Your Identity</label>
-          <select id="verify-identity" name="verify-identity">
+                <button class="submit">Upload Button</button>
+                <span id="logo-filename" class="filename"></span>
+            </div>
+            <div class="form-group">
+                <label for="company-name">Company Name</label>
+                <input type="text" id="company-name" name="company-name" placeholder="type here" />
+            </div>
+            <div class="form-group">
+                <label for="designation">Designation</label>
+                <input type="text" id="designation" name="designation" placeholder="type here" />
+            </div>
+            <div class="form-group">
+                <label for="verify-identity">Verify Your Identity</label>
+                <select id="verify-identity" name="verify-identity">
             <option value="select">select</option>
           </select>
-          <button type="button">Upload</button>
-        </div>
-        <div class="form-group">
-          <label for="verify-employment">Verify Employment</label>
-          <select id="verify-employment" name="verify-employment">
+                <button type="button" class="button">Upload</button>
+            </div>
+            <div class="form-group">
+                <label for="verify-employment">Verify Employment</label>
+                <select id="verify-employment" name="verify-employment">
             <option value="select">select</option>
           </select>
-          <button type="button">Upload</button>
-        </div>
-        <div class="form-group">
-          <label for="about-company">About Company</label>
-          <textarea
-            id="about-company"
-            name="about-company"
-            rows="4"
-            placeholder="write here"
-          ></textarea>
-        </div>
-      </form>
+                <button type="button" class="button">Upload</button>
+            </div>
+            <div class="form-group">
+                <label for="about-company">About Company</label>
+                <textarea id="about-company" name="about-company" rows="4" placeholder="write here"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Office Locations (add at least one address)</label>
+                <input type="text" id="address" name="address" placeholder="google maps link" class="address" />
+                <input type="text" id="address" name="address" placeholder="google maps link" class="address" />
+                <input type="text" id="address" name="address" placeholder="google maps link" class="address" />
+                <button type="button" class="transparent">Add More Addresses</button>
+                <button type="button" class="button">Submit for approval</button>
+            </div>
+        </form>
     </div>
     <div class="extra">
-      <div class="header">
-        <div class="brand-name">
-          <img src="/assets/Logo.svg" alt="logo" />
-          <h2>Now<span class="mini-text">Ur</span>Turn</h2>
+        <div class="header">
+            <div class="brand-name">
+                <img src="/assets/Logo.svg" alt="logo" />
+                <h2>Now<span class="mini-text">Ur</span>Turn</h2>
+            </div>
+
+            <div class="nav-menu">
+                <span>Home</span>
+                <span>Discuss</span>
+                <span class="active">Jobs</span>
+                <span>Projects</span>
+                <span>Profile</span>
+            </div>
+
+            <div class="mobile-hamburger">
+                <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
+            </div>
         </div>
 
-        <div class="nav-menu">
-          <span>Home</span>
-          <span>Discuss</span>
-          <span class="active">Jobs</span>
-          <span>Projects</span>
-          <span>Profile</span>
+        <div class="herosectionextra extras-hero">
+            <div class="herocontent extras">
+                <h2>Hey Natasha!</h2>
+                <p>Welcome to Recruiter Portal!</p>
+            </div>
         </div>
 
-        <div class="mobile-hamburger">
-          <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
+        <div class="content">
+            <h2>Discover What Our Recruitment Portal Can Achieve For You!</h2>
+            <p>
+                It's your gateway to effortlessly create and publish job vacancies, seamlessly manage digital resumes, filter applicants with precision, and even kickstart conversations with potential hires.
+            </p>
+            <span>Ready to revolutionize your recruitment process?</span>
+            <button>Register Now</button>
         </div>
-      </div>
-
-      <div class="herosectionextra extras-hero">
-        <div class="herocontent extras">
-          <h2>Hey Natasha!</h2>
-          <p>Welcome to Recruiter Portal!</p>
-        </div>
-      </div>
-
-      <div class="content">
-        <h2>Discover What Our Recruitment Portal Can Achieve For You!</h2>
-        <p>
-          It's your gateway to effortlessly create and publish job vacancies,
-          seamlessly manage digital resumes, filter applicants with precision,
-          and even kickstart conversations with potential hires.
-        </p>
-        <span>Ready to revolutionize your recruitment process?</span>
-        <button>Register Now</button>
-      </div>
     </div>
     <script src="/index.js"></script>
-  </body>
+</body>
+
 </html>
