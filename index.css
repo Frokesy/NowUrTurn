@@ -128,7 +128,7 @@ input[type="search"]::placeholder {
 .jobs-section .job-card img {
     width: 2.5rem;
     background-color: #fff;
-    padding: 7px;
+    padding: 5px;
     border-radius: 10px;
     margin-right: 12px;
 }
@@ -173,4 +173,53 @@ input[type="search"]::placeholder {
     margin-right: 5px;
     background-color: #66b7ff;
     border-radius: 6px;
+}
+
+.recent-jobs-container .job-card {
+    background-color: #f2f7ff;
+    display: flex;
+    align-items: center;
+    padding: 12px 12px;
+    border-radius: 12px;
+}
+
+.recent-jobs-container .job-card .img-container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.recent-jobs-container .job-card img {
+    width: 53px;
+    height: 53px;
+}
+
+.recent-jobs-container .job-card .content {
+    margin-left: 20px
+}
+
+.recent-jobs-container .job-card .content h4 {
+    font-weight: 800;
+    font-size: 15px;
+    color: #1a8cff;
+}
+
+.recent-jobs-container .job-card .content p {
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.recent-jobs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 30px;
+    margin-top: 2px;
+}
+
+.recent-jobs {
+    margin-top: 5vh;
 }
