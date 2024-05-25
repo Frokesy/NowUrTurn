@@ -94,6 +94,7 @@
 
 input[type="search"]::placeholder {
     color: #c4dcfc;
+    background-color: #fff;
     font-weight: 900;
 }
 
