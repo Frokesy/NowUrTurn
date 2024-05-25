@@ -21,7 +21,10 @@ span,
 div,
 li,
 p,
-button {
+label,
+select,
+option button,
+.upload {
   font-family: "Roboto";
   font-style: normal;
 }
@@ -128,7 +131,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3% auto auto auto
+  margin: 3% auto auto auto;
 }
 
 .hamburger-menu,
@@ -361,6 +364,104 @@ input[type="search"]::placeholder {
   display: none;
 }
 
+.company-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form-group {
+  min-width: 60%;
+}
+
+.form-group:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-group .upload-button {
+  height: 6rem;
+  width: 6rem;
+  background: white;
+  color: #1a8cff;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 10px;
+}
+
+.form-group .upload-button:hover{
+    background-color: #fff;
+    color: #1a8cff;
+}
+
+.form-group:first-child .submit{
+    width: 40%;
+    padding: 1.5% 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group select,
+.form-group textarea {
+  width: calc(100% - 12px);
+  padding: 0.8rem 0.5rem;
+  margin-bottom: 5px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group select {
+  background: #dfebf7;
+  border: none;
+}
+
+.form-group input::placeholder,
+.form-group select,
+.form-group textarea::placeholder {
+  color: #36679c;
+  outline: none;
+}
+
+.form-group button {
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  background-color: #5b95d3;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 98.5%;
+  margin-top: 0.4rem;
+  font-family: "Roboto";
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+}
+
+.extra {
+  display: none;
+}
+
 .extra .content {
   display: flex;
   flex-direction: column;
@@ -423,8 +524,8 @@ span {
     gap: 20px;
     margin-bottom: 100px;
   }
-  .search{
-      padding: 0 5%;
+  .search {
+    padding: 0 5%;
   }
   .search .input-container {
     width: 80vw;
