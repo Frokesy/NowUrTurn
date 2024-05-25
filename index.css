@@ -237,7 +237,7 @@ input[type="search"]::placeholder {
     display: none;
 }
 
-.content {
+.extra .content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,22 +246,22 @@ input[type="search"]::placeholder {
     margin: 30px auto;
 }
 
-.content h2 {
+.extra .content h2 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.content p,
+.extra .content p,
 span {
     font-weight: 200;
 }
 
-.content span {
+.extra .content span {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-button {
+.extra .content button {
     background-color: #fff;
     border: 2px solid #1a8cff;
     color: #1a8cff;
@@ -357,25 +357,25 @@ button {
         text-align: start;
         padding: 0 20px;
     }
-    .extra {
+    .extra .extras {
         text-align: center;
     }
-    .extras-hero {
+    .extra .extras-hero {
         padding: 20px;
     }
-    .content {
+    .extra .content {
         width: 90%;
     }
-    .content h2 {
+    .extra .content h2 {
         font-size: 18px;
     }
-    .content p {
+    .extra .content p {
         font-size: 14px;
     }
-    .content span {
+    .extra .content span {
         font-size: 14px;
     }
-    button {
+    .extra button {
         width: 90%;
     }
 }
