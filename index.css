@@ -5,13 +5,31 @@
   font-family: "Roboto Serif", serif;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body::-webkit-scrollbar {
   width: 0;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+li,
+p {
+  font-family: "Roboto";
+  /* font-weight: 700; */
+  font-style: normal;
+}
+
 .shadow {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
@@ -64,7 +82,7 @@ body::-webkit-scrollbar {
   display: none;
   position: fixed;
   top: 13rem;
-  right: 5rem;
+  right: 5%;
   transform: translate(-50%, -50%);
   width: 10rem;
   height: 10.5rem;
@@ -88,6 +106,10 @@ body::-webkit-scrollbar {
   list-style: none;
   text-align: right;
 }
+.nav-modal ul li:hover {
+  color: #1a8cff;
+  cursor: pointer;
+}
 
 .mini-text {
   color: #c863b9;
@@ -99,7 +121,8 @@ body::-webkit-scrollbar {
   padding: 20px 0;
 }
 
-.hamburger-menu {
+.hamburger-menu,
+.close-menu {
   display: flex;
   justify-content: end;
   cursor: pointer;
@@ -107,11 +130,22 @@ body::-webkit-scrollbar {
   position: relative;
 }
 
-.hamburger-menu img {
+.hamburger-menu img,
+.close-menu img {
   background-color: #fff;
   border-radius: 100%;
   margin-right: 10vw;
 }
+
+.close-menu img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.close-menu {
+  display: none;
+}
+
 .herocontent {
   text-align: center;
   color: #fff;
@@ -309,6 +343,8 @@ input[type="search"]::placeholder {
 }
 .footer ul li {
   list-style: none;
+  font-size: .8rem;
+  cursor: pointer;
 }
 
 .mobile-footer {
