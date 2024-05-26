@@ -85,9 +85,8 @@ option button,
     top: 13rem;
     right: 5%;
     transform: translate(-50%, -50%);
-    width: 10rem;
-    height: 10.5rem;
     background-color: white;
+    padding: 20px;
     z-index: 4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -100,9 +99,8 @@ option button,
 .nav-modal ul {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-top: 1rem;
-    padding: 0 10px;
+    gap: 1.5rem;
+    padding: 0 0 0 20px;
 }
 
 .nav-modal ul li {
