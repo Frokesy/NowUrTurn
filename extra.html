@@ -50,17 +50,17 @@
             </div>
             <div class="form-group">
                 <label for="verify-identity">Verify Your Identity</label>
-                <div class="select">
+                <div class="select" id="identity">
                     <span>Select</span>
-                    <img src="/assets/down-arrow.svg" alt="">
+                    <img src="/assets/down-arrow.svg" alt="img">
                 </div>
                 <button type="button" class="button">Upload</button>
             </div>
             <div class="form-group">
                 <label for="verify-employment">Verify Employment</label>
-                <div class="select">
+                <div class="select" id="employment">
                     <span>Select</span>
-                    <img src="/assets/down-arrow.svg" alt="">
+                    <img src="/assets/down-arrow.svg" alt="img">
                 </div>
                 <button type="button" class="button">Upload</button>
             </div>
@@ -101,24 +101,6 @@
       </form>
     </div>
     <div class="extra">
-      <div class="header">
-        <div class="brand-name">
-          <img src="/assets/Logo.svg" alt="logo" />
-          <h2>Now<span class="mini-text">Ur</span>Turn</h2>
-        </div>
-
-        <div class="nav-menu">
-          <span>Home</span>
-          <span>Discuss</span>
-          <span class="active">Jobs</span>
-          <span>Projects</span>
-          <span>Profile</span>
-        </div>
-
-        <div class="mobile-hamburger">
-          <img src="/assets/hamburger-menu.svg" alt="hamburger-menu" />
-        </div>
-      </div>
 
       <div class="herosectionextra extras-hero">
         <div class="herocontent extras">
@@ -137,6 +119,36 @@
         <span>Ready to revolutionize your recruitment process?</span>
         <button>Register Now</button>
       </div>
+    </div>
+
+    <!-- modals -->
+    <div class="overlay">
+        <div class="overlay-body">
+            <div class="overlay-content">
+                <h2>Verify Employment</h2>
+                <ul class="list-items">
+                    <li>AADHAAR</li>
+                    <li>Voter ID Card</li>
+                    <li>PAN</li>
+                    <li>Driving License</li>
+                    <li>Passport</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="identity-overlay">
+        <div class="overlay-body">
+            <div class="overlay-content">
+                <h2>Verify your identity</h2>
+                <ul class="list-items">
+                    <li>Company-issued ID Card</li>
+                    <li>Employment contract or offer letter</li>
+                    <li>Pay stubs or salary slips</li>
+                    <li>Official letter from employer confirming employment</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="/extra.js"></script>
   </body>
