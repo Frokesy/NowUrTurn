@@ -416,6 +416,13 @@ input[type="search"]::placeholder {
     cursor: pointer;
     border-radius: 4px;
     border: 2px solid #1a8cff;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.form-group .submit:hover{
+    background-color: #1a8cff;
+    color: #fff;
 }
 
 .form-group label {
@@ -459,6 +466,7 @@ input[type="search"]::placeholder {
     color: #b4d2fb;
     font-weight: 600;
     outline: none;
+    font-family: 'Roboto';
 }
 
 .form-group .button {
@@ -664,6 +672,8 @@ span {
         border-radius: 10px;
         margin-left: 20px;
         margin-top: -22px;
+        height: 2.5rem;
+        width: 2.5rem;
     }
     .recent-jobs-container .job-card .content p {
         font-size: 11px;
