@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const logoFilename = document.getElementById('logo-filename');
     const employment = document.getElementById('employment');
     const identity = document.getElementById('identity')
+    const listItems = document.querySelectorAll('.list-item');
+    const selectedText = document.getElementById('selected-text');
+    const listItemsVer = document.querySelectorAll('.list-item2');
+    const selectedTextVer = document.getElementById('selected-text-ver');
 
     logoButton.addEventListener('click', () => {
         logoInput.click();
@@ -35,6 +39,22 @@ document.addEventListener('DOMContentLoaded', () => {
             identityModal.classList.remove('active')
         }
     })
+
+    listItems.forEach(item => {
+        item.addEventListener('click', (event) => {
+            const selectedItemText = event.target.textContent;
+            selectedText.textContent = selectedItemText;
+            identityModal.classList.remove('active'); 
+        });
+    });
+
+    listItemsVer.forEach(item => {
+        item.addEventListener('click', (event) => {
+            const selectedItemText = event.target.textContent;
+            selectedTextVer.textContent = selectedItemText;
+            identityModal.classList.remove('active'); 
+        });
+    });
 
     logoInput.addEventListener('change', () => {
         const file = logoInput.files[0];
